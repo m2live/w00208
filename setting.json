@@ -1,10 +1,35 @@
 {
     "meta": {
-        "version": "4",
+        "version": "5",
         "hostName": "example",
         "admin": "admin@example.com"
     },
-    "hosting": [],
+    "hosting": [
+        {
+            "enable": true,
+            "listen": "*:80",
+            "origin": {
+                "protocol": "HTTPS",
+                "address": [
+                    "demo.winesoft.co.kr"
+                ]
+            },
+            "functions": {
+                "network": {
+                    "cache": {
+                        "ttl": {
+                            "resCode": {
+                                "noCache": {
+                                    "sec": 10
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "name": "158.247.222.237"
+        }
+    ],
     "env": {
         "log": {
             "info": {
