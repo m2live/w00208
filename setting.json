@@ -14,20 +14,20 @@
                     "demo.winesoft.co.kr"
                 ]
             },
+            "name": "158.247.222.237",
             "functions": {
                 "network": {
                     "cache": {
                         "ttl": {
                             "resCode": {
                                 "noCache": {
-                                    "sec": 10
+                                    "sec": 25
                                 }
                             }
                         }
                     }
                 }
-            },
-            "name": "158.247.222.237"
+            }
         }
     ],
     "env": {
